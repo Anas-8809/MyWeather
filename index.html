@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Current Weather</h1>
+        <div class="search">
+            <input type="text" placeholder="enter city name">
+            <button><img src="weather_img/search.png"></button>
+        </div>
+        <div class="error">
+            <p>*Invalid city name</p>
+        </div>
+        <div class="weather">
+            <div class="weather_img">
+                <img src="weather_img/clear.png">
+            </div>
+            <div class="temp_place">
+                <div class="temp">
+                    <p>7°C</p>
+                </div>
+                <div class="place">
+                    <p>New York</p>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="humidity">
+                    <img src="weather_img/humidity.png">
+                    <div>
+                        <p class="perct_humid">48%</p>
+                        <p class="humid">Humidity</p>
+                    </div>
+                </div>
+                <div class="wind_data">
+                    <img src="weather_img/wind.png">
+                    <div>
+                        <p class="wind_speed">15km/hr</p>
+                        <p class="wind_text">Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="weather.js"></script>
+</body>
+</html>
